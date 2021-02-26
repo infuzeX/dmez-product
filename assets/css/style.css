@@ -7185,6 +7185,19 @@ a:focus {
 .btn:focus .btn-hover-text {
   display: inline-block; }
 
+.shopping-btn{
+  background-color:#49B848;
+  color:white;
+  font-size:18px;
+  border-radius:7px;
+  margin-top:20px;
+}
+.shopping-btn:hover{
+  background-color:white;
+  color:#49B848;
+  border: 1px solid #49B848
+
+}
 .btn-primary {
   color: #fff;
   background-color: #A1B985;
@@ -13834,9 +13847,19 @@ button:focus {
   
   }
 
+  #order-placed{
+    margin-left:100px;
+    height:100px;
+  }
+
   @media screen and (min-width: 992px) {
     #image{
       margin-left:250px
+    }
+    #order-placed{
+      
+      margin-left:500px;
+      height:100px;
     }
   }
 /*--------------------- 5.18.Coming Soon -------------------- */
